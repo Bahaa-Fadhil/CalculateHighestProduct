@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Calculate Highest product</title>
+</head>
+<body>
+  <div class="wrapper">
+    <div class="container"> <!-- All thing will be inside the countainer-->
+      <div class="header"><h1>Calculate Highest product</h1></div>
+      <div class="box"> <!-- All info will be inside the box--></div>
+        <div id="product"> <!-- All Result-->
+          <p>1. Please enter numeric values seperated by spaces or commas.</p>
+          <p>2. Click result for the highest product between 3 of those numbers.</p>
+            <div class="NumValue">
+              <input type="text" value="1,10,2,6,5,3" />
+              <input type="submit" value="Send">
+              <p class="error text-danger d-none">Please use only numbers seperated by either spaces or commas</p>
+              <p>Result of highest product is: <span class="result"></span></p>
+              <p>Your highest three numbers is: <span id="highest"></span></p>
+              </div> <!-- End of NumValue class-->
+           </div> <!-- End of Product div-->
+         </div> <!-- End of container -->
+       </div> <!-- End of warpper -->
+</body> <!-- End of body -->
+
+<!-- A simple footer-->
+<footer>&copy; Bahaa Fadhil 2020</footer> 
+</html>
